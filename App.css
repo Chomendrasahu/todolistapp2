@@ -1,0 +1,94 @@
+.App {
+  text-align: center;
+}
+
+body{
+  background-image: url(https://cdn.pixabay.com/photo/2016/06/28/21/44/texture-1485529__340.jpg);
+  background-size: 100%;
+}
+
+.main{
+  border-width: 5px;
+  border-style: double;
+}
+
+.row{
+  padding-left: 17%;
+  align-self: center;
+
+}
+
+.side-nav{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+  font-style: inherit;
+  list-style-type: square;
+  padding: 10px;
+}
+
+h1{
+  text-align: center;
+  text-decoration-line: underline;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: black;
+}
+
+h2{
+  text-align: center;
+  text-decoration-line: underline;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: aliceblue;
+}
+
+h3{
+  text-align: center;
+  text-decoration-line: underline;
+}
+.newTask-box{
+   width: 200px;
+   padding: 20px;
+   border: 5px;
+   padding-left: 40%;
+}
+
+.box{
+  padding: 5px;
+  border-style: double;
+  border-radius: 5px;
+  background-color: aliceblue;
+}
+
+.Main-Section{
+  text-align: center;
+  padding: 40px;
+  border-style: double;
+  padding: 15px;
+  margin-right: 20%;
+  margin-top: 5%;
+  border-width: 10px;
+  background-image: url(https://cdn.pixabay.com/photo/2014/06/16/23/40/ruby-370130_960_720.png);
+}
+
+.new{
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 10px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #ea26a2;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+  border-color: black;
+}
+
+.new:hover {background-color: #ea26a2}
+
+.new:active {
+  background-color: red;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
